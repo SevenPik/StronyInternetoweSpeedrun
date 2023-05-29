@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+    <link rel="stylesheet" href="styles.css"/>
+    <h1 id="title">Registration Form</h1>
+    <p id="description">:)</p>
+    <form id="survey-form">
+      <label id="name-label">name<input id="name" type="text" required placeholder="name"/></label>
+   <label id="email-label">mail<input id="email" type="email" required placeholder="email"/></label>
+   <label id="number-label">number <input id="number" type="number" min="1" max="6" placeholder="number"/></label>
+   <select id="dropdown">
+     <dropdown >
+       <option>Choose</option>
+       <option>1</option>
+       <option>2</option>
+     </dropdown>
+     </select>
+     <input type="radio" value="1" name="radio1"/>
+     <input type="radio" value="2" name="radio1"/>
+     <input type="checkbox" value="check"/>
+     <input type="checkbox" value="check"/>
+     <input type="textarea" name="textarea"/>
+     
+     <input id="submit" type="submit"/>
+     <textarea rows="3" cols="30"/>
+    </form>
+    </body>
+  </html> 
