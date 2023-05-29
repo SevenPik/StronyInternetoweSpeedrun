@@ -83,13 +83,35 @@ containter{
 .GłównaStrona {
         position: relative;
         height: 700px;
-        background-color:white;
+        background-color:rgba(255, 255, 255, 0.363);
         width: 700px;
         z-index: 123;
         margin:auto;
-        display: block;
         margin-top: 25px;
+        border-radius:20px;
+        display:block;
+
 }
 form{
     position:relative;
+        
+        margin-left:auto;
+        margin-right:auto;
+}
+input[type="submit"]{
+        background-color:red;
+        border-radius: 2px;
+        border-color: red;
+        color: white;   
+        font-size:1em;
+        margin:auto;
+}
+.zawartosc{
+        width:50%;
+        display:block;
+        position:relative;
+        margin: auto;
+        margin-top:auto;
+        margin-bottom:auto;
+
 }
