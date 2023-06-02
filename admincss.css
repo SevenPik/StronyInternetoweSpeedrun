@@ -1,0 +1,8 @@
+.hurra{
+    color:aquamarine;
+    background:linear-gradient(red,rgb(130, 187, 182),rgb(64, 189, 178));
+    width:100%;
+    height:100vw;
+    text-align:center;
+    font-size:10em;
+}
